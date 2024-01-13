@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.btn {
+  @apply bg-[rgb(232,172,50)] py-2 w-full text-sm font-bold text-white rounded-sm hover:bg-[rgb(231,176,68)];
+}
+
+.input {
+  @apply outline-none p-3 border-2 rounded text-sm w-full focus:border-[rgb(232,172,50)] text-gray-900;
+}
+.input-label {
+  @apply bg-white absolute left-3 -translate-y-2 text-sm px-2 text-gray-500 ;
+}
+.head {
+  @apply text-2xl font-bold;
+}
+.head-line {
+  @apply w-2/5 h-1 bg-[rgb(232,172,50)] rounded;
+}
